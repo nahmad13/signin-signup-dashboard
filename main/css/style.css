@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0f7d5;
+  font-family: "Ubuntu", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-body {
+  background-color: #ffffff;
+  width: 500px;
+  height: 600px;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+  padding-top: 40px;
+  color: #00ee14;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.input-fields {
+  width: 70%;
+  color: rgb(38, 50, 56);
+  letter-spacing: 1px;
+  background: rgb(0 0 0 / 4%);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  transition: box-shadow 0.78s;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+}
+.full-name {
+  display: flex;
+  justify-content: center;
+}
+.full-name input {
+  width: 35%;
+}
+
+form {
+  padding-top: 40px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 4px #00ee14 !important;
+}
+
+nav {
+  height: 80px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 50px -10px rgb(139 139 139);
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li input[type="submit"] {
+  margin: 0;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #88e89a, #64e62d);
+  border: 0;
+  padding: 10px 40px;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10%;
+  font-size: 14px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+form p {
+  font-size: 12px;
+}
+
+a {
+  color: #00ee14;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}

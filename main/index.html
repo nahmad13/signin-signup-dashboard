@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <script defer src="script/signup.js"></script>
+  <title>Sign in</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="form-body">
+      <p class="sign" align="center">Register</p>
+      <form class="form1">
+        <div class="full-name">
+          <input class="f-name input-fields" type="text" pattern="[a-zA-Z\s]{3,20}"
+            oninvalid="this.setCustomValidity('Enter Valid Name')" oninput="setCustomValidity('')"
+            align="center" placeholder="First Name" required>
+
+          <input class="l-name input-fields" type="text" pattern="[a-zA-Z\s]{3,20}"
+            oninvalid="this.setCustomValidity('Enter Valid Name')" oninput="setCustomValidity('')"
+            align="center" 
+            placeholder="Last Name" required>
+        </div>
+        <input class="email input-fields" type="email" align="center" placeholder="Email" required>
+
+        <input class="phone-no input-fields" type="tel" pattern="[0][3][0-9]{9}"
+        oninvalid="this.setCustomValidity('Number must start with 0 3')" oninput="setCustomValidity('')"
+          align="center" placeholder="Phone Number" required>
+        <input class="pass input-fields" type="password" align="center" placeholder="Password" required>
+
+        <input type="submit" value='Sign in' class="sumit-button signup" align="center"></input>
+        <p class="get-started" align="center">Already have an account? <a href="signin.html">Sign in</p>
+    </div>
+  </div>
+</body>
+</body>
+
+</html>
